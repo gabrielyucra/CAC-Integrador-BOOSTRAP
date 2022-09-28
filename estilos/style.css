@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------NAV------------- */
+
+a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
+a:hover{
+    color: rgb(201, 211, 219);
+}
+nav{
+    background-color: rgb(53, 58, 64);
+
+}
+.container-fluid{
+    padding: 0 50px;
+}
+
+.estiloNav a{
+    margin:0 10px;
+}
+/*----------------------- BANNERR-------------------- */
+.banner img{
+    height: 85vh;
+    opacity: 0.4;
+    position: relative;
+}
+
+
+.texto-encima {
+    position: absolute;
+    text-align: right;
+    top: 50%;
+    left: 43%;
+    max-width: 50%;
+    max-height: 300px;
+    font-size: 1.3rem;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+/* ----------------ORADORES------------------ */
+
+.div-o{
+    margin: 12px 0;
+}
+
+.contenedor{
+    padding: 0 100px;
+    margin-bottom: 60px;
+}
+
+.card-oradores{
+    margin: 0 30px;
+}
+.card-oradores img{
+    height: 350px;
+}
+
+.habilidad-o{
+    display: inline;
+    padding: 3px;
+    border-radius: 10px;
+}
+/* ---------CARD COSTADO ------------------------ */
+.btn-card{
+    border: solid 1px white;
+}
+.card-hono{
+    background-color: rgb(53, 58, 64);
+    border-left: solid 1px white;
+}
+
+.card-hono div button{
+    background-color: rgb(53, 58, 64);
+}
+/* ---------------------FORMULARIO------------------ */
+
+
+.center{
+    margin: 0 23%;
+}
+textarea{
+    margin-top: 20px;
+}
+
+.btn-formulario{
+    width: 100%;
+    background-color: green;
+    margin: 15px 0;
+}
+.btn-form:hover{
+    background-color: green;
+}
+/*------------------------ FOOTER------------------- */
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 60px;
+    background-color:rgb(10, 74, 110);
+    margin-bottom: 0;
+}
